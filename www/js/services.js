@@ -13,7 +13,7 @@ app.factory('FeedService', function ($http, $q, $rootScope, FEED_URL) {
 		self.posts.length = 0;
 		var defer = $q.defer();
 
-		superfeedr.auth('yawo', '3fbc01cc065e625b5e9b80d0fe97290c');
+		superfeedr.auth('<SUPERFEED USERNAME>', '<SUPERFEED TOKEN>');
 		superfeedr.setOnLoadCallback(function() {
 			var feed = new superfeedr.Feed(FEED_URL);
 			feed.load(function(result) {

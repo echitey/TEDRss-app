@@ -1,0 +1,2 @@
+USERNAME = yawo
+AUTH KEY = 3fbc01cc065e625b5e9b80d0fe97290c
